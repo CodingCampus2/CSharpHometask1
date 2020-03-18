@@ -20,3 +20,7 @@ Compose a string that tells how many people were killed by the virus in the city
 
 ## Example output:
 "There are 420 people sick with Hlomanda in the city of Virtualiev, 84 of which died"
+
+## Clarifications:
+Input variables that contains only numbers should be parsed to floats.
+Numbers, if needed, should be rounded by casting to int. (For this task only)
