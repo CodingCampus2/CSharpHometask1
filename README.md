@@ -24,4 +24,5 @@ Compose a string that tells how many people were killed by the virus in the city
 ## Task clarifications:
 Input variables that contains only numbers should be parsed to _floats_.  
 Use _floats_ in all your floating-point calculations.  
-Numbers, if needed, should be rounded by casting to int. (For this task only).
+Don't round any intermediate results.  
+Numbers, if needed, should be rounded by Math.Truncate().
