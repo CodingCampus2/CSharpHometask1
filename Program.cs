@@ -7,9 +7,16 @@ namespace HomeworkTemplate
     {
         static void Main(string[] args)
         {
-            Task1 task1 = new Task1();
+            Func<Task1, string> TaskSolver = task =>
+            {
+                // Your solution goes here
+                // You can get all needed inputs from task.[Property]
+                // Good luck!
 
-            task1.Output.CheckAnswer("answer");
+                return "My answer";
+            };
+
+            Task1.CheckSolver(TaskSolver);
         }
     }
 }
